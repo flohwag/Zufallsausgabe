@@ -12,9 +12,9 @@ public class HelloWorld
 		if ( choice == 1 )
 			response = "Wahrscheinlich";
 		else if ( choice == 2 )
-			response = "It is decidedly so";
+			response = "Wenn du es so möchtest";
 		else if ( choice == 3 )
-			response = "Sehr wahrscheinlich";
+			response = "sehr wahrscheinlich";
 		else if ( choice == 4 )
 			response = "Ja auf jeden Fall";
 		else if ( choice == 5 )
@@ -42,6 +42,6 @@ public class HelloWorld
 		else 
 			response = "Computer sagt nein!";
 	
-		System.out.println( "Die mysthische Miesmuschel sagt" + response );
+		System.out.println( "Die mysthische Miesmuschel sagt " + response );
 	}
 }
