@@ -5,12 +5,12 @@ public class HelloWorld
 	public static void main ( String[] args )
 	{
 		Random r = new Random();
-
+	
 		int choice = 1 + r.nextInt(15);
 		String response = "";
-
+	
 		if ( choice == 1 )
-			response = "Wahrscheinlichn";
+			response = "Wahrscheinlich";
 		else if ( choice == 2 )
 			response = "It is decidedly so";
 		else if ( choice == 3 )
@@ -41,7 +41,7 @@ public class HelloWorld
 			response = "Konzentriere dich, ich kann deine Frage nicht lesen";
 		else 
 			response = "Computer sagt nein!";
-
-		System.out.println( "Mein Programm sagt: " + response );
+	
+		System.out.println( "Die mysthische Miesmuschel sagt" + response );
 	}
 }
