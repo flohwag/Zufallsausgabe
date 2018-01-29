@@ -1,2 +1,2 @@
-# Zufallsgenerator
-Ein simpler Zufallsgenerator der verschiedene Antworten ausgibt, ein simples Programm um Java zu üben
+# Zufallsausgabe
+Eine simple Zufallsausgabe die verschiedene Antworten ausgibt, ein simples Programm um Java zu üben
